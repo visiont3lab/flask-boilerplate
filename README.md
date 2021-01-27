@@ -4,7 +4,7 @@
 # Setup
 virtualenv --python=python3 env
 source env/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 
 # TO run 
 flask run
